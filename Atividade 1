@@ -1,0 +1,22 @@
+///função que recebe como parametro um numero inteiro e devolve o seu dobro.
+//c++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int n;
+  int d;
+  cin>>n;
+  d=n*2;
+  cout<<d;
+
+    return 0;
+}
+
+
+//python
+n = int(input("diga um numero inteiro:"))
+d = n * 2
+print(d)
