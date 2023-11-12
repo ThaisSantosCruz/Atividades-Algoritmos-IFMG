@@ -1,0 +1,34 @@
+//Faca uma funcao que receba dois numeros e retorne qual deles e o maior.
+//c++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+ float n;
+ float t;
+ cin>>n>>t;
+ 
+ if(n>t){
+     cout<<n;
+ }
+ if(t>n){
+     cout<<t;
+ }
+ 
+ 
+ 
+
+    return 0;
+}
+
+//python 
+
+n = float(input("diga o numero:"))
+t = float(input("diga o numero:"))
+
+if n > t:
+    print(n)
+if t > n:
+    print(t)
