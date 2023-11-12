@@ -1,0 +1,37 @@
+//8. Sejam a e b os catetos de um triangulo, onde a hipotenusa ˆ e obtida pela equacao:
+hipotenusa =√a² + b². Faca uma funcao que receba os valores de a e b e calcule o valor da hipotenusa atraves da equacao.
+
+//c++
+
+
+
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    float a;
+    float b;
+    float h;
+     cin>>a>>b;
+     h = sqrt(pow(a,2) + pow(b,2));
+     cout<< h;
+
+ 
+ 
+ 
+
+    return 0;
+}
+
+//python
+
+import math
+
+a = float(input("diga o valor:"))
+b = float(input("diga o valor:"))
+
+h = math.sqrt(a**2 + b**2)
+print(h)
+
